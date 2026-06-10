@@ -252,30 +252,36 @@ The remediation roadmap prioritizes findings according to risk and business impa
 
 ## Repository Structure
 
+```
 pci-popia-compliance-audit/
-
+│
+├── README.md
+│
 ├── audit-report/
-
+│   ├── PCI_POPIA_Audit_Report.pdf
+│
 ├── control-mapping/
-
-├── data-flow/
-
+│   ├── PCI_Control_Matrix.xlsx
+│   ├── POPIA_Control_Matrix.xlsx
+│
 ├── risk-register/
-
-├── remediation-plan/
-
+│   ├── Risk_Register.xlsx
+│
+├── data-flow/
+│   ├── Data_Flow_Diagram.png
+│   ├── Asset_Inventory.xlsx
+│
 ├── evidence/
-
-│ ├── screenshots/
-
-│ ├── exports/
-
-│ └── policies/
-
-├── docs/
-
-└── README.md
-
+│   ├── screenshots/
+│   ├── policies/
+│
+├── remediation-plan/
+│   ├── Remediation_Roadmap.xlsx
+│
+└── docs/
+    ├── Methodology.md
+    ├── Scope.md
+````
 ---
 
 ## Skills Demonstrated
